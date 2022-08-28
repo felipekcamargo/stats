@@ -3,6 +3,8 @@
 //  Stats
 //
 //  Created by Marcelo Chaves on 11/11/2020.
+//  Updated by Felipe K. Camargo on 27/08/2022
+//
 //  Using Swift 5.0.
 //  Running on macOS 10.15.
 //
@@ -11,21 +13,21 @@
 
 // Modules
 "CPU" = "CPU";
-"Open CPU settings" = "Open CPU settings";
+"Open CPU settings" = "Abrir configurações de CPU";
 "GPU" = "GPU";
-"Open GPU settings" = "Open GPU settings";
+"Open GPU settings" = "Abrir configurações de GPU";
 "RAM" = "RAM";
-"Open RAM settings" = "Open RAM settings";
-"Disk" = "Disk";
-"Open Disk settings" = "Open disk settings";
-"Sensors" = "Sensors";
-"Open Sensors settings" = "Open sensors settings";
-"Network" = "Network";
-"Open Network settings" = "Open network settings";
-"Battery" = "Battery";
-"Open Battery settings" = "Open battery settings";
+"Open RAM settings" = "Abrir configurações de RAM";
+"Disk" = "Disco";
+"Open Disk settings" = "Abrir configurações de disco";
+"Sensors" = "Sensores";
+"Open Sensors settings" = "Abrir configurações dos sensores";
+"Network" = "Rede";
+"Open Network settings" = "Abrir configurações de rede";
+"Battery" = "Bateria";
+"Open Battery settings" = "Abrir configurações de bateria";
 "Bluetooth" = "Bluetooth";
-"Open Bluetooth settings" = "Open bluetooth settings";
+"Open Bluetooth settings" = "Abrir configurações de bluetooth";
 
 // Words
 "Unknown" = "Desconhecido";
@@ -52,31 +54,31 @@
 "Max" = "Max";
 "Min" = "Min";
 "Reset" = "Reset";
-"Alignment" = "Alignment";
-"Left alignment" = "Left";
-"Center alignment" = "Center";
-"Right alignment" = "Right";
-"Dashboard" = "Dashboard";
-"Enabled" = "Enabled";
-"Disabled" = "Disabled";
-"Silent" = "Silent";
-"Units" = "Units";
-"Fans" = "Fans";
-"Scaling" = "Scaling";
+"Alignment" = "Alinhamento";
+"Left alignment" = "Esquerda";
+"Center alignment" = "Centro";
+"Right alignment" = "Direita";
+"Dashboard" = "Painel";
+"Enabled" = "Habilitado";
+"Disabled" = "Desabilitado";
+"Silent" = "Silencioso";
+"Units" = "Unidades";
+"Fans" = "Ventoinhas";
+"Scaling" = "Escala";
 "Linear" = "Linear";
-"Square" = "Square";
-"Cube" = "Cube";
-"Logarithmic" = "Logarithmic";
+"Square" = "Quadrado";
+"Cube" = "Cubo";
+"Logarithmic" = "Logarítmico";
 
 // Setup
-"Stats Setup" = "Stats Setup";
-"Previous" = "Previous";
-"Previous page" = "Previous page";
-"Next" = "Next";
-"Next page" = "Next page";
-"Finish" = "Finish";
-"Finish setup" = "Finish setup";
-"Welcome to Stats" = "Welcome to Stats";
+"Stats Setup" = "Configuração Stats";
+"Previous" = "Anterior";
+"Previous page" = "Página anterior";
+"Next" = "Próximo";
+"Next page" = "Próxima página";
+"Finish" = "Finalizar";
+"Finish setup" = "Finalizar configuração";
+"Welcome to Stats" = "Bem-vindo ao Stats";
 "welcome_message" = "Thanks for using Stats, a free open source macOS system monitor for your menu bar.";
 "Start the application automatically when starting your Mac" = "Start the application automatically when starting your Mac";
 "Do not start the application automatically when starting your Mac" = "Do not start the application automatically when starting your Mac";
@@ -91,9 +93,9 @@
 
 // Alerts
 "New version available" = "Nova versão disponível";
-"Click to install the new version of Stats" = "Clique para instalar a nova versão do Stats";
+"Click to install the new version of Stats" = "Clique para instalar a nova versão";
 "Successfully updated" = "Atualizado com sucesso";
-"Stats was updated to v" = "Stats foi atualizado para v%0";
+"Stats was updated to v" = "O Stats foi atualizado para a versão v%0";
 "Reset settings text" = "All application settings will be reset and the application will be restarted. Are you sure you want to do this?";
 
 // Settings
@@ -102,7 +104,7 @@
 "Support the application" = "Apoie o aplicativo";
 "Close application" = "Fechar aplicativo";
 "Open application settings" = "Abrir configurações do aplicativo";
-"Open dashboard" = "Open dashboard";
+"Open dashboard" = "Abrir o dashboard";
 
 // Application settings
 "Update application" = "Atualizar aplicativo";
@@ -116,15 +118,15 @@
 "Show icon in dock" = "Mostrar ícone no dock";
 "Start at login" = "Inicie no login";
 "Build number" = "Build number";
-"Reset settings" = "Reset settings";
+"Reset settings" = "Resetar configurações";
 
 // Dashboard
 "Serial number" = "Número de série";
 "Uptime" = "Tempo de atividade";
 "Number of cores" = "%0 cores";
 "Number of threads" = "%0 threads";
-"Number of e-cores" = "%0 efficiency cores";
-"Number of p-cores" = "%0 performance cores";
+"Number of e-cores" = "%0 cores de eficiência";
+"Number of p-cores" = "%0 cores de performance";
 
 // Update
 "The latest version of Stats installed" = "A versão mais recente do Stats está instalada";
@@ -147,7 +149,7 @@
 "One row" = "Uma linha";
 "Two rows" = "Duas linhas";
 "Mini widget" = "Mini";
-"Line chart widget" = "Line chart";
+"Line chart widget" = "Gráfico de linha";
 "Bar chart widget" = "Gráfico de barras";
 "Pie chart widget" = "Gráfico de pizza";
 "Network chart widget" = "Gráfico de rede";
@@ -157,7 +159,7 @@
 "Memory widget" = "Memoria";
 "Static width" = "Static width";
 "Tachometer widget" = "Tachometer";
-"Show symbols" = "Show symbols";
+"Show symbols" = "Exibir símbolos";
 "Label widget" = "Label";
 "Number of reads in the chart" = "Number of reads in the chart";
 "Color of download" = "Color of download";
@@ -173,8 +175,8 @@
 "Details" = "Detalhes";
 "Top processes" = "Principais processos";
 "Pictogram" = "Pictograma";
-"Module settings" = "Module settings";
-"Widget settings" = "Widget settings";
+"Module settings" = "Confiugurações do módulo";
+"Widget settings" = "Configurações do widget";
 
 // Modules
 "Number of top processes" = "Número de processos principais";
@@ -191,16 +193,16 @@
 "Show usage per core" = "Mostrar uso por núcleo";
 "Show hyper-threading cores" = "Mostrar núcleos hyper-threading";
 "Split the value (System/User)" = "Divida o valor (Sistema/Usuário)";
-"Scheduler limit" = "Scheduler limit";
-"Speed limit" = "Speed limit";
-"Average load" = "Average load";
-"1 minute" = "1 minute";
-"5 minutes" = "5 minutes";
-"15 minutes" = "15 minutes";
+"Scheduler limit" = "Agendador de limite";
+"Speed limit" = "Limite de velocidade";
+"Average load" = "Carga média";
+"1 minute" = "1 minuto";
+"5 minutes" = "5 minutos";
+"15 minutes" = "15 minutos";
 "CPU usage threshold" = "CPU usage threshold";
 "CPU usage is" = "CPU usage is %0";
-"Efficiency cores" = "Efficiency cores";
-"Performance cores" = "Performance cores";
+"Efficiency cores" = "Núcleos de eficiência";
+"Performance cores" = "Núcleos de performance";
 
 // GPU
 "GPU to show" = "GPU para mostrar";
@@ -254,7 +256,7 @@
 "Save the fan speed" = "Save the fan speed";
 "Fan" = "Fan";
 "HID sensors" = "HID sensors";
-"Synchronize fan's control" = "Synchronize fan's control";
+"Synchronize fan's control" = "Sincronizar controle das ventoinhas";
 
 // Network
 "Uploading" = "Enviando";
@@ -288,37 +290,37 @@
 "Battery Power" = "Battery Power";
 "Time" = "Tempo";
 "Health" = "Saúde";
-"Amperage" = "Amperagem";
-"Voltage" = "Voltagem";
+"Amperage" = "Corrente";
+"Voltage" = "Tensão";
 "Cycles" = "Número de ciclos";
 "Temperature" = "Temperatura";
 "Power adapter" = "Adaptador de energia";
-"Power" = "Energia";
-"Is charging" = "Está carregando";
+"Power" = "Potência";
+"Is charging" = "Carregando";
 "Time to discharge" = "Tempo de descarregar";
 "Time to charge" = "Tempo de carregar";
 "Calculating" = "Calculando";
 "Fully charged" = "Completamente carregado";
 "Not connected" = "Não conectado";
-"Low level notification" = "Notificação de baixo nível";
-"High level notification" = "Notificação de alto nível";
+"Low level notification" = "Notificação de bateria fraca";
+"High level notification" = "Notificação de bateria cheia";
 "Low battery" = "Bateria fraca";
 "High battery" = "Bateria cheia";
 "Battery remaining" = "%0% restante";
-"Battery remaining to full charge" = "%0% to full charge";
+"Battery remaining to full charge" = "%0% até a carga total";
 "Percentage" = "Porcentagem";
 "Percentage and time" = "Porcentagem e tempo";
 "Time and percentage" = "Tempo e porcentagem";
 "Time format" = "Formato de hora";
 "Hide additional information when full" = "Ocultar informações adicionais quando estiver cheia";
 "Last charge" = "Última carga";
-"Capacity" = "Capacity";
-"maximum / designed" = "maximum / designed";
-"Low power mode" = "Low power mode";
+"Capacity" = "Capacidade";
+"maximum / designed" = "maximo / projetado";
+"Low power mode" = "Modo de baixa energia";
 
 // Bluetooth
 "Battery to show" = "Battery to show";
-"No Bluetooth devices are available" = "No Bluetooth devices are available";
+"No Bluetooth devices are available" = "Não há dispositivos bluetooth disponíveis";
 
 // Colors
 "Based on utilization" = "Based on utilization";
@@ -326,28 +328,28 @@
 "System accent" = "System accent";
 "Monochrome accent" = "Monochrome accent";
 "Clear" = "Clear";
-"White" = "White";
-"Black" = "Black";
-"Gray" = "Gray";
+"White" = "Branco";
+"Black" = "Preto";
+"Gray" = "Cinza";
 "Second gray" = "Second gray";
-"Dark gray" = "Dark gray";
-"Light gray" = "Light gray";
-"Red" = "Red";
+"Dark gray" = "Sinza escuro";
+"Light gray" = "Sinza claro";
+"Red" = "Vermelho";
 "Second red" = "Second red";
-"Green" = "Green";
+"Green" = "Verde";
 "Second green" = "Second green";
-"Blue" = "Blue";
+"Blue" = "Azul";
 "Second blue" = "Second blue";
-"Yellow" = "Yellow";
+"Yellow" = "Amarelo";
 "Second yellow" = "Second yellow";
-"Orange" = "Orange";
+"Orange" = "Laranja";
 "Second orange" = "Second orange";
-"Purple" = "Purple";
+"Purple" = "Roxo";
 "Second purple" = "Second purple";
-"Brown" = "Brown";
+"Brown" = "Marrom";
 "Second brown" = "Second brown";
-"Cyan" = "Cyan";
+"Cyan" = "Ciano";
 "Magenta" = "Magenta";
-"Pink" = "Pink";
-"Teal" = "Teal";
-"Indigo" = "Indigo";
+"Pink" = "Rosa";
+"Teal" = "Verde-azulado";
+"Indigo" = "Anil";
